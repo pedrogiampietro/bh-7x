@@ -1,7 +1,4 @@
-# GIMUD - Graphical Interface Multi User Dungeon
-# ishebad.npc: Datenbank für den großwesir ankrahmuns
-
-Name = "Ishebad"
+Name = "King The Promoter"
 Outfit = (65,0-0-0-0-0)
 Home = [33158,32848,7]
 Radius = 1

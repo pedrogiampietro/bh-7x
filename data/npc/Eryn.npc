@@ -1,7 +1,4 @@
-# GIMUD - Graphical Interface Multi User Dungeon
-# xodet.npc: Datenbank für den Magieladen-Besitzer Xodet
-
-Name = "Xodet"
+Name = "Eryn"
 Outfit = (130,19-86-87-95-0)
 Home = [32399,32222,7]
 Radius = 1

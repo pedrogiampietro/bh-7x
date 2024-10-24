@@ -1,0 +1,52 @@
+Name = "Ruby The protector"
+Outfit = (139,95-57-102-115-0)
+Home = [33322,31883,7]
+Radius = 3
+
+Behaviour = {
+ADDRESS,"hello$",!                      -> "Welcome to my little garden, adventurer %N!"
+ADDRESS,"hi$",!                         -> *
+ADDRESS,"greetings$",!                  -> *
+ADDRESS,premium,promoted,"hello$",!     -> "Welcome to my little garden, humble %N!"
+ADDRESS,premium,promoted,"hi$",!        -> *
+ADDRESS,premium,promoted,"greetings$",! -> *
+ADDRESS,!                               -> Idle
+BUSY,"hello$",!                         -> "Please wait a minute, %N.", Queue
+BUSY,"hi$",!                            -> *
+BUSY,!                                  -> NOP
+VANISH,!                                -> "Shouldn't I teleport you back to Pemaret?"
+
+"bye"       -> "Shouldn't I teleport you back to Pemaret?", Idle
+"farewell"  -> *
+"name"      -> "I am Ruby, an old protector."
+"job"       -> "I sell amulets that can protect you from losing your items."
+"offer"     -> "I sell amulets of loss and protection amulets."
+"magic"     -> "My amulets have magical properties that protect you."
+
+"amulet"    -> "I've collected quite a few protection amulets, and some amulets of loss as well. Also, I'm interested in buying broken amulets."
+"amulet","of","loss"  -> Type=3057, Amount=1, Price=50000, "Do you want to buy an amulet of loss for %P gold?", Topic=3
+"amulet","of","loss",PvPEnforced,! -> "What a strange name for an amulet. Never heard about that one."
+
+"protection","amulet" -> Type=3084, Amount=1, Price=700, "Do you want to buy a protection amulet for %P gold?", Topic=3
+"broken","amulet"     -> Type=3080, Amount=1, Price=50000, "Do you want to sell a broken amulet for %P gold?", Topic=4
+
+Topic=3,"yes",CountMoney>=Price -> "Thank you. Use it wisely.", DeleteMoney, Create(Type)
+Topic=3,"yes"                   -> "Sorry, you do not have enough gold."
+Topic=3                         -> "Maybe another time."
+
+Topic=4,"yes",Count(Type)>=Amount -> "Ok. Here is your money.", Delete(Type), CreateMoney
+Topic=4,"yes"                   -> "Sorry, you do not own one."
+Topic=4                         -> "Maybe another time."
+
+"teleport"  -> "Should I teleport you back to Pemaret?", Topic=2
+"pemaret"   -> *
+"back"      -> *
+"cormaya"   -> *
+"edron"     -> *
+
+Topic=2,"yes" -> "Here you go!", Idle, EffectOpp(11), Teleport(33288,31956,6), EffectOpp(11)
+Topic=2       -> "Maybe later."
+
+"letter",QuestValue(17522)=1,Count(6113)>=1 -> "A letter from that youngster Morgan? I believed him dead since years. These news are good news indeed. Thank you very much, my friend.", DeleteAmount(6113, 1), SetQuestValue(17522,2)
+"letter" -> "I am not waiting for any letters from strangers."
+}

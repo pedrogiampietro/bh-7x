@@ -1,7 +1,4 @@
-# GIMUD - Graphical Interface Multi User Dungeon
-# brodrosch.npc: Datenbank f�r den Kapit�n Brodrosch
-
-Name = "Brodrosch"
+Name = "Captain Brodrosch"
 Outfit = (66,0-0-0-0-0)
 Home = [32661,31957,15]
 Radius = 2

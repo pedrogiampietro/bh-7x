@@ -1,0 +1,69 @@
+Name = "Milton The Shotter Seller"
+Outfit = (144,3-58-41-115-0)
+Home = [33156,32810,4]
+Radius = 1
+
+Behaviour = {
+ADDRESS,"hello$",!       -> "Ashari %N."
+ADDRESS,"hi$",!          -> *
+ADDRESS,"ashari$",!      -> *
+ADDRESS,!                -> Idle
+BUSY,"hello$",!          -> "In a few moment I will have my attention %N.", Queue
+BUSY,"hi$",!             -> *
+BUSY,"ashari$",!         -> *
+BUSY,!                   -> NOP
+VANISH,!                 -> "Asha Thrazi."
+
+"bye"           -> "Asha Thrazi.", Idle
+"asha","thrazi" -> *
+"farewell"      -> *
+
+"job"         -> "I am the master archer of the arena. I sell equipment to distance fighters."
+"name"        -> "I am Dario of Ab'Dendriel."
+"time"        -> "Time is unimportant to me."
+"temple"      -> "The temple is somewhere south at the coast."
+"arkhothep"   -> "The pharaoh seems to be mighty beyond imagination."
+"ashmunrah"   -> "There was some fighting long ago. The old pharaoh lost his power to his son Arkhothep."
+"scarab"      -> "Scarabs are dangerous. They are quick, resistant to poison, and their shells are hard as steel."
+"tibia"       -> "I travel a lot to see everything. For now, I have settled here for some time." 
+"carlin"      -> "I was there some time ago. It was lovely and reminded me of my home, Ab'Dendriel."
+"thais"       -> "Thais is too crowded for my taste."
+"edron"       -> "I think Edron is quite typical for a human settlement."
+"venore"      -> "I did not like the greedy attitude of the people there."
+"kazordoon"   -> "The small people are too hectic and greedy. They don't understand the harmony of nature."
+"dwarves"     -> *
+"dwarfes"     -> *
+"ab'dendriel" -> "Sometimes I miss my brethren and sisters. But for now, I want to see the world and travel around."
+"elves"       -> *
+"elfes"       -> *
+"darama"      -> "This continent is hard and challenging. I like challenges."
+"darashia"    -> "The city seemed a bit dull and peaceful to me, so I left for Ankrahmun."
+"daraman"     -> "You should ask about him in Darashia. People there talked a lot about him." 
+"ankrahmun"   -> "Ankrahmun is unlike any other city I've seen. Sometimes it gives me shivers... on the other hand, it makes me stay on guard and feel alive, despite the undeath cult." 
+
+"buy"             -> "I am selling bows, crossbows, and ammunition. Do you need anything?"
+"do","you","sell" -> *
+"do","you","have" -> *
+"offer"           -> *
+"goods"           -> *
+"ammo"            -> "Do you need arrows for a bow, or bolts for a crossbow?"
+"ammunition"      -> *
+
+"sell","bow"      -> "I don't buy used bows."
+"sell","crossbow" -> "I don't buy used crossbows."
+
+"bow"             -> Type=3350, Amount=1,  Price=400,  "Do you want to buy a bow for %P gold?", Topic=4
+"crossbow"        -> Type=3349, Amount=1,  Price=500,  "Do you want to buy a crossbow for %P gold?", Topic=4
+"arrow"           -> Type=3447, Amount=1,  Price=2,    "Do you want to buy an arrow for %P gold?", Topic=4
+"bolt"            -> Type=3446, Amount=1,  Price=3,    "Do you want to buy a bolt for %P gold?", Topic=4
+
+%1,1<%1,"bow"          -> Type=3350, Amount=%1, Price=400*%1, "Do you want to buy %A bows for %P gold?", Topic=4
+%1,1<%1,"crossbow"     -> Type=3349, Amount=%1, Price=500*%1, "Do you want to buy %A crossbows for %P gold?", Topic=4
+%1,1<%1,"arrow"        -> Type=3447, Amount=%1, Price=2*%1,   "Do you want to buy %A arrows for %P gold?", Topic=4
+%1,1<%1,"bolt"         -> Type=3446, Amount=%1, Price=3*%1,   "Do you want to buy %A bolts for %P gold?", Topic=4
+
+Topic=4,"yes",CountMoney>=Price -> "Here you are.", DeleteMoney, Create(Type)
+Topic=4,"yes"                   -> "Come back, when you have enough money."
+Topic=4                         -> "Hmm, but next time."
+
+}
