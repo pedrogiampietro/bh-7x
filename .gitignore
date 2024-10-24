@@ -1,0 +1,17 @@
+
+vc14
+vc14/.vs/theforgottenserver/v15/Browse.VC.db
+vc14/.vs/theforgottenserver/v15/ipch/ba8106b03bee8153.ipch
+*.lastbuildstate
+*.tlog
+*.ipch
+*.exe
+vc14/theforgottenserver.vcxproj.user
+vc14/.vs/
+*.pdb
+*.dll
+/.vs
+/vc14/Debug
+/vc14/UpgradeLog.htm
+/TibianusOTClientEncrypted
+

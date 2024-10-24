@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<houses>
+	<house name="Dragons Flat #1" houseid="1" entryx="321" entryy="641" entryz="7" rent="0" townid="2" size="126" />
+	<house name="Dragons Flat #2" houseid="2" entryx="319" entryy="645" entryz="7" rent="0" townid="2" size="151" />
+	<house name="Dragons Flat #3" houseid="3" entryx="319" entryy="656" entryz="7" rent="0" townid="2" size="152" />
+	<house name="Dragons Guild Hall #1" houseid="4" entryx="324" entryy="657" entryz="7" rent="0" townid="2" size="183" />
+	<house name="Dragons House #1" houseid="5" entryx="343" entryy="640" entryz="7" rent="0" townid="2" size="47" />
+	<house name="Dragons House #2" houseid="6" entryx="347" entryy="650" entryz="7" rent="0" townid="2" size="69" />
+	<house name="Dragons House #4" houseid="7" entryx="362" entryy="648" entryz="7" rent="0" townid="2" size="12" />
+	<house name="Dragons House #5" houseid="8" entryx="366" entryy="639" entryz="7" rent="0" townid="2" size="63" />
+	<house name="Dragons House #6" houseid="9" entryx="367" entryy="639" entryz="7" rent="0" townid="2" size="77" />
+	<house name="Dragons House #3" houseid="10" entryx="372" entryy="653" entryz="7" rent="0" townid="2" size="127" />
+	<house name="Dragons House #7" houseid="11" entryx="380" entryy="638" entryz="7" rent="0" townid="2" size="8" />
+	<house name="Dragons House #8" houseid="12" entryx="382" entryy="635" entryz="7" rent="0" townid="2" size="6" />
+	<house name="Dragons House #9" houseid="13" entryx="382" entryy="642" entryz="7" rent="0" townid="2" size="18" />
+	<house name="Dragons House #10" houseid="14" entryx="382" entryy="635" entryz="6" rent="0" townid="2" size="9" />
+	<house name="Dragons House #11" houseid="15" entryx="382" entryy="639" entryz="6" rent="0" townid="2" size="15" />
+	<house name="Dragons House #12" houseid="16" entryx="382" entryy="638" entryz="6" rent="0" townid="2" size="21" />
+	<house name="Dragons House #13" houseid="17" entryx="338" entryy="209" entryz="5" rent="0" townid="2" size="21" />
+	<house name="Dragons House #14" houseid="18" entryx="339" entryy="208" entryz="5" rent="0" townid="2" size="24" />
+	<house name="Dragons House #15" houseid="19" entryx="391" entryy="643" entryz="7" rent="0" townid="2" size="77" />
+	<house name="Dragons House #16" houseid="20" entryx="402" entryy="642" entryz="7" rent="0" townid="2" size="36" />
+	<house name="Cidade Principal #1" houseid="58" entryx="463" entryy="512" entryz="7" rent="0" townid="1" size="40" />
+	<house name="Cidade Principal #2" houseid="59" entryx="463" entryy="512" entryz="6" rent="0" townid="1" size="39" />
+	<house name="Cidade Principal #3" houseid="60" entryx="460" entryy="512" entryz="6" rent="0" townid="1" size="42" />
+	<house name="Cidade Principal #4" houseid="61" entryx="457" entryy="527" entryz="7" rent="0" townid="1" size="34" />
+	<house name="Cidade Principal #5" houseid="62" entryx="464" entryy="527" entryz="7" rent="0" townid="1" size="34" />
+	<house name="Cidade Principal #6" houseid="63" entryx="479" entryy="528" entryz="7" rent="0" townid="1" size="83" />
+	<house name="Cidade Principal #7" houseid="64" entryx="485" entryy="530" entryz="7" rent="0" townid="1" size="34" />
+	<house name="Cidade Principal #8" houseid="65" entryx="482" entryy="533" entryz="7" rent="0" townid="1" size="70" />
+	<house name="Cidade Principal #9" houseid="66" entryx="475" entryy="533" entryz="7" rent="0" townid="1" size="70" />
+	<house name="Cidade Principal #10" houseid="67" entryx="479" entryy="498" entryz="7" rent="0" townid="1" size="23" />
+	<house name="Cidade Principal #11" houseid="68" entryx="483" entryy="501" entryz="7" rent="0" townid="1" size="28" />
+	<house name="Cidade Principal #12" houseid="69" entryx="486" entryy="499" entryz="6" rent="0" townid="1" size="18" />
+	<house name="Cidade do Deserto #1" houseid="133" entryx="374" entryy="498" entryz="7" rent="0" townid="3" size="70" />
+	<house name="Cidade do Deserto #2" houseid="134" entryx="363" entryy="504" entryz="7" rent="0" townid="3" size="70" />
+	<house name="Cidade do Deserto #3" houseid="135" entryx="350" entryy="504" entryz="7" rent="0" townid="3" size="70" />
+	<house name="Cidade do Deserto #4" houseid="136" entryx="337" entryy="504" entryz="7" rent="0" townid="3" size="70" />
+	<house name="Cidade do Deserto #5" houseid="137" entryx="333" entryy="493" entryz="7" rent="0" townid="3" size="70" />
+	<house name="Cidade do Deserto #6" houseid="138" entryx="338" entryy="494" entryz="7" rent="0" townid="3" size="70" />
+	<house name="Cidade do Deserto #7" houseid="139" entryx="333" entryy="480" entryz="7" rent="0" townid="3" size="70" />
+	<house name="Cidade do Deserto #8" houseid="140" entryx="338" entryy="480" entryz="7" rent="0" townid="3" size="70" />
+	<house name="Cidade do Deserto #9" houseid="141" entryx="357" entryy="480" entryz="7" rent="0" townid="3" size="70" />
+	<house name="Cidade do Deserto #10" houseid="142" entryx="355" entryy="496" entryz="7" rent="0" townid="3" size="70" />
+	<house name="Venore #1" houseid="143" entryx="387" entryy="398" entryz="6" rent="0" townid="4" size="48" />
+	<house name="Venore #2" houseid="144" entryx="395" entryy="406" entryz="6" rent="0" townid="4" size="60" />
+	<house name="Venore #3" houseid="145" entryx="376" entryy="407" entryz="6" rent="0" townid="4" size="134" />
+	<house name="Venore #4" houseid="146" entryx="404" entryy="406" entryz="6" rent="0" townid="4" size="147" />
+	<house name="Venore #5" houseid="147" entryx="412" entryy="406" entryz="6" rent="0" townid="4" size="147" />
+	<house name="Venore #6" houseid="148" entryx="415" entryy="393" entryz="6" rent="0" townid="4" size="60" />
+	<house name="Venore #7" houseid="149" entryx="415" entryy="415" entryz="6" rent="0" townid="4" size="60" />
+	<house name="Venore #8" houseid="150" entryx="407" entryy="409" entryz="6" rent="0" townid="4" size="60" />
+	<house name="Venore #9" houseid="151" entryx="413" entryy="422" entryz="6" rent="0" townid="4" size="60" />
+	<house name="Venore #10" houseid="152" entryx="401" entryy="435" entryz="7" rent="0" townid="4" size="28" />
+	<house name="Venore #11" houseid="153" entryx="404" entryy="435" entryz="7" rent="0" townid="4" size="28" />
+	<house name="Tiquanda #1" houseid="173" entryx="549" entryy="455" entryz="6" rent="0" townid="5" size="45" />
+	<house name="Tiquanda #2" houseid="175" entryx="551" entryy="465" entryz="6" rent="0" townid="5" size="45" />
+	<house name="Tiquanda #3" houseid="176" entryx="541" entryy="470" entryz="6" rent="0" townid="5" size="45" />
+	<house name="Tiquanda #4" houseid="177" entryx="533" entryy="465" entryz="6" rent="0" townid="5" size="45" />
+	<house name="Tiquanda #5" houseid="178" entryx="539" entryy="456" entryz="6" rent="0" townid="5" size="45" />
+	<house name="Cidade do Fogo #1" houseid="179" entryx="488" entryy="425" entryz="7" rent="0" townid="6" size="26" />
+	<house name="Cidade do Fogo #2" houseid="180" entryx="489" entryy="421" entryz="7" rent="0" townid="6" size="28" />
+	<house name="Cidade do Fogo #3" houseid="181" entryx="499" entryy="426" entryz="7" rent="0" townid="6" size="28" />
+	<house name="Cidade do Fogo #4" houseid="182" entryx="508" entryy="417" entryz="7" rent="0" townid="6" size="24" />
+	<house name="Cidade do Fogo #5" houseid="183" entryx="512" entryy="415" entryz="7" rent="0" townid="6" size="20" />
+	<house name="Cidade do Fogo #6" houseid="184" entryx="511" entryy="410" entryz="7" rent="0" townid="6" size="20" />
+	<house name="Cidade do Fogo #7" houseid="185" entryx="509" entryy="410" entryz="7" rent="0" townid="6" size="24" />
+	<house name="Cidade do Fogo #8" houseid="186" entryx="512" entryy="403" entryz="7" rent="0" townid="6" size="20" />
+	<house name="Cidade do Fogo #9" houseid="187" entryx="506" entryy="403" entryz="7" rent="0" townid="6" size="24" />
+	<house name="Cidade do Fogo #10" houseid="188" entryx="479" entryy="397" entryz="7" rent="0" townid="6" size="35" />
+	<house name="Cidade do Fogo #11" houseid="189" entryx="472" entryy="405" entryz="7" rent="0" townid="6" size="24" />
+	<house name="Cidade do Fogo #12" houseid="190" entryx="472" entryy="407" entryz="7" rent="0" townid="6" size="24" />
+	<house name="Venore #12" houseid="191" entryx="421" entryy="403" entryz="6" rent="0" townid="4" size="70" />
+	<house name="Cidade Principal #13" houseid="193" entryx="428" entryy="516" entryz="5" rent="0" townid="1" size="59" />
+	<house name="Cidade Principal #14" houseid="194" entryx="457" entryy="525" entryz="6" rent="0" townid="1" size="64" />
+	<house name="Cidade Principal #15" houseid="195" entryx="464" entryy="525" entryz="6" rent="0" townid="1" size="70" />
+	<house name="Cidade Principal #16" houseid="196" entryx="457" entryy="508" entryz="7" rent="0" townid="1" size="34" />
+	<house name="Cidade Principal #17" houseid="197" entryx="460" entryy="512" entryz="5" rent="0" townid="1" size="42" />
+	<house name="Cidade Principal #18" houseid="198" entryx="463" entryy="512" entryz="5" rent="0" townid="1" size="39" />
+	<house name="Cidade Principal #19" houseid="199" entryx="460" entryy="512" entryz="4" rent="0" townid="1" size="42" />
+	<house name="Cidade Principal #20" houseid="200" entryx="463" entryy="512" entryz="4" rent="0" townid="1" size="39" />
+	<house name="Cidade Principal #21" houseid="201" entryx="449" entryy="495" entryz="7" rent="0" townid="1" size="120" />
+	<house name="Cidade Principal #22" houseid="202" entryx="425" entryy="518" entryz="4" rent="0" townid="1" size="23" />
+	<house name="Cidade Principal #23" houseid="203" entryx="424" entryy="515" entryz="3" rent="0" townid="1" size="21" />
+	<house name="Cidade Principal #24" houseid="204" entryx="424" entryy="515" entryz="2" rent="0" townid="1" size="21" />
+	<house name="Cidade Principal #25" houseid="205" entryx="428" entryy="515" entryz="2" rent="0" townid="1" size="22" />
+	<house name="Cidade Principal #26" houseid="206" entryx="423" entryy="515" entryz="1" rent="0" townid="1" size="33" />
+	<house name="Cidade Principal #27" houseid="207" entryx="424" entryy="515" entryz="1" rent="0" townid="1" size="25" />
+	<house name="Cidade Principal #28" houseid="208" entryx="458" entryy="498" entryz="5" rent="0" townid="1" size="38" />
+	<house name="Cidade Principal #29" houseid="209" entryx="463" entryy="498" entryz="5" rent="0" townid="1" size="48" />
+	<house name="Cidade Principal #30" houseid="210" entryx="469" entryy="498" entryz="5" rent="0" townid="1" size="38" />
+	<house name="Cidade Principal #31" houseid="211" entryx="427" entryy="506" entryz="7" rent="0" townid="1" size="92" />
+	<house name="Dragons Manson #1" houseid="212" entryx="427" entryy="654" entryz="7" rent="0" townid="2" size="154" />
+	<house name="Dragons Manson #2" houseid="213" entryx="448" entryy="651" entryz="7" rent="0" townid="2" size="152" />
+	<house name="Dragons Manson #3" houseid="214" entryx="446" entryy="669" entryz="7" rent="0" townid="2" size="239" />
+	<house name="Dragons Manson #4" houseid="215" entryx="432" entryy="673" entryz="7" rent="0" townid="2" size="131" />
+	<house name="Dragons Manson #5" houseid="216" entryx="418" entryy="665" entryz="7" rent="0" townid="2" size="192" />
+	<house name="Dragons Manson #6" houseid="217" entryx="412" entryy="680" entryz="7" rent="0" townid="2" size="148" />
+	<house name="Dragons Manson #7" houseid="218" entryx="429" entryy="678" entryz="7" rent="0" townid="2" size="124" />
+	<house name="Dragons House #17" houseid="219" entryx="489" entryy="677" entryz="6" rent="0" townid="2" size="20" />
+	<house name="Dragons House #18" houseid="220" entryx="489" entryy="682" entryz="6" rent="0" townid="2" size="20" />
+	<house name="Dragons House #19" houseid="221" entryx="488" entryy="677" entryz="7" rent="0" townid="2" size="50" />
+	<house name="Dragons House #20" houseid="222" entryx="455" entryy="672" entryz="7" rent="0" townid="2" size="134" />
+	<house name="Dragons House #21" houseid="223" entryx="478" entryy="677" entryz="7" rent="0" townid="2" size="173" />
+	<house name="Dragons House #23" houseid="224" entryx="485" entryy="634" entryz="7" rent="0" townid="2" size="113" />
+	<house name="Dragons Castle #1" houseid="225" entryx="454" entryy="646" entryz="7" rent="0" townid="2" size="472" />
+	<house name="Dragons Seaguls Beach #1" houseid="226" entryx="440" entryy="639" entryz="7" rent="0" townid="2" size="308" />
+	<house name="Dragons House #24" houseid="227" entryx="439" entryy="622" entryz="7" rent="0" townid="2" size="52" />
+	<house name="Dragons House #25" houseid="228" entryx="442" entryy="624" entryz="7" rent="0" townid="2" size="68" />
+</houses>

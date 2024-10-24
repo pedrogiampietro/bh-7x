@@ -1,0 +1,62 @@
+Name = "Yasmin The blessed by GODS"
+Outfit = (140,77-83-79-95-0)
+Home = [32359,31683,6]
+Radius = 4
+
+Behaviour = {
+ADDRESS,"hello$",!      -> "Welcome, child of nature."
+ADDRESS,"hi$",!         -> *
+ADDRESS,!               -> Idle
+BUSY,"hello$",!         -> "Please wait a minute, %N.", Queue
+BUSY,"hi$",!            -> *
+BUSY,"heal$",Burning>0 -> "You are burning, %N. I will help you.", Burning(0,0), EffectOpp(15)
+BUSY,"heal$",Poison>0  -> "You are poisoned, %N. I will help you.", Poison(0,0), EffectOpp(14)
+BUSY,"heal$",HP<40     -> "You are looking really bad, %N. Let me heal your wounds.", HP=40, EffectOpp(13)
+BUSY,"heal$"           -> "You aren't looking really bad, %N. Sorry, I can't help you."
+BUSY,!                  -> NOP
+VANISH,!                -> "Remember: If you are heavily wounded or poisoned, I will heal you."
+
+"bye"            -> "Good bye, %N!", Idle
+"farewell"       -> *
+"job"            -> "I am a guardian of nature and a keeper of the blessings of Tibia."
+"name"           -> "My name is Yasmin."
+
+"heal$",Burning>0 -> "You are burning. I will help you.", Burning(0,0), EffectOpp(15)
+"heal$",Poison>0  -> "You are poisoned. I will help you.", Poison(0,0), EffectOpp(14)
+"heal$",HP<40     -> "You are looking really bad. Let me heal your wounds.", HP=40, EffectOpp(13)
+
+"blessing"       -> "I can provide you with one of the five blessings: spiritual shielding, spark of the phoenix, embrace of tibia, fire of the suns, or wisdom of solitude. Which one would you like to receive?"
+
+"spiritual"      -> "I can offer you the blessing of spiritual shielding for 10,000 gold. Do you want to proceed?", Price=10000, Topic=1
+Topic=1,"yes", QuestValue(101) > 0        -> "You already possess this blessing."
+Topic=1,"yes",CountMoney<Price            -> "Oh. You do not have enough money."
+Topic=1,"yes"                             -> "Receive the blessing of spiritual shielding, pilgrim.", DeleteMoney, EffectOpp(13), SetQuestValue(101,1), Bless(1)
+Topic=1                                   -> "Fine. You are free to decline my offer."
+
+"spark"          -> "I can offer you the spark of the phoenix for 10,000 gold. Do you want to proceed?", Price=10000, Topic=2
+Topic=2,"yes", QuestValue(102) > 0        -> "You already possess this blessing."
+Topic=2,"yes",CountMoney<Price            -> "Oh. You do not have enough money."
+Topic=2,"yes"                             -> "Receive the spark of the phoenix, pilgrim.", DeleteMoney, EffectOpp(13), SetQuestValue(102,1), Bless(2)
+Topic=2                                   -> "Fine. You are free to decline my offer."
+
+"fire"           -> "I can offer you the fire of the suns for 10,000 gold. Do you want to proceed?", Price=10000, Topic=3
+Topic=3,"yes", QuestValue(103) > 0        -> "You already possess this blessing."
+Topic=3,"yes",CountMoney<Price            -> "Oh. You do not have enough money."
+Topic=3,"yes"                             -> "Receive the fire of the suns, pilgrim.", DeleteMoney, EffectOpp(13), SetQuestValue(103,1), Bless(3)
+Topic=3                                   -> "Fine. You are free to decline my offer."
+
+"wisdom"         -> "I can offer you the wisdom of solitude for 10,000 gold. Do you want to proceed?", Price=10000, Topic=4
+Topic=4,"yes", QuestValue(104) > 0        -> "You already possess this blessing."
+Topic=4,"yes",CountMoney<Price            -> "Oh. You do not have enough money."
+Topic=4,"yes"                             -> "Receive the wisdom of solitude, pilgrim.", DeleteMoney, EffectOpp(13), SetQuestValue(104,1), Bless(4)
+Topic=4                                   -> "Fine. You are free to decline my offer."
+
+"embrace"        -> "I can offer you the embrace of tibia for 10,000 gold. Do you want to proceed?", Price=10000, Topic=5
+Topic=5,"yes", QuestValue(105) > 0        -> "You already possess this blessing."
+Topic=5,"yes",CountMoney<Price            -> "Oh. You do not have enough money."
+Topic=5,"yes"                             -> "Receive the embrace of tibia, pilgrim.", DeleteMoney, EffectOpp(13), SetQuestValue(105,1), Bless(5)
+Topic=5                                   -> "Fine. You are free to decline my offer."
+
+"time"           -> "Now, it is %T. Ask Gorn for a watch, if you need one."
+
+}
