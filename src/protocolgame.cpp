@@ -319,20 +319,7 @@ void ProtocolGame::onRecvFirstMessage(NetworkMessage& msg)
 	//Update premium days
 	Game::updatePremium(account);
 
-	if (characterName == "King Tibianus") {
-		std::ostringstream query;
-		Database* db = Database::getInstance();
-		query << "SELECT `name`, `account_id` FROM `players` WHERE `fake_player` = 1 group by `account_id` limit 197";
-		DBResult_ptr result;
-		if ((result = db->storeQuery(query.str()))) {
-			do {
-				g_scheduler.addEvent(createSchedulerTask(uniform_random(1000, 1000 * 60 * 60), std::bind(&ProtocolGame::login, getThis(), result->getString("name"), result->getNumber<uint32_t>("account_id"), operatingSystem, true)));
-			} while (result->next());
-		}
-	}
-	else {
-		g_dispatcher.addTask(createTask(std::bind(&ProtocolGame::login, getThis(), characterName, accountId, operatingSystem, false)));
-	}
+	g_dispatcher.addTask(createTask(std::bind(&ProtocolGame::login, getThis(), characterName, accountId, operatingSystem, false)));
 }
 
 void ProtocolGame::onConnect()
